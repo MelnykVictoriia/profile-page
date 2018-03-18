@@ -10,7 +10,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li *ngFor="let navItem of navItems" class="nav-item">
-                <a [routerLink]="[navItem]" class="nav-link" (click)="closeNav()">{{navItem}}</a>
+                <a [routerLink]="[navItem.path]" class="nav-link" (click)="closeNav()" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                    {{navItem.name}}
+                </a>
             </li>
         </ul>
     </div>

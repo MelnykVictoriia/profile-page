@@ -6,10 +6,23 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./navigation.component.css"]
 })
 export class NavigationComponent implements OnInit {
-  navItems: string[];
+  navItems: any[];
 
   constructor() {
-    this.navItems = ["about", "education", "skills"];
+    this.navItems = [
+      {
+        name: "About",
+        path: "/"
+      },
+      {
+        name: "Education",
+        path: "/education"
+      },
+      {
+        name: "Skills",
+        path: "/skills"
+      }
+    ];
   }
 
   toggleNav(): void {

@@ -8,7 +8,6 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
-import { InterestComponent } from './interest/interest.component';
 
 
 @NgModule({
@@ -17,8 +16,7 @@ import { InterestComponent } from './interest/interest.component';
     AboutComponent,
     NavigationComponent,
     EducationComponent,
-    SkillsComponent,
-    InterestComponent
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
