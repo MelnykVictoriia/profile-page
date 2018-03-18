@@ -1,0 +1,34 @@
+.list-social {
+    padding-left: 0;
+}
+
+.list-social-item {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.list-social-link {
+    display: block;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.list-social-link:hover {
+    opacity: 0.7;
+}
+
+.link-twitter {
+    background-image: url('assets/icon/twitter.svg');
+}
+
+.link-linkedin {
+    background-image: url('assets/icon/linkedin.svg');
+}
+
+.link-google {
+    background-image: url('assets/icon/google.svg');
+}
+
+.link-facebook {
+    background-image: url('assets/icon/facebook.svg');
+}
